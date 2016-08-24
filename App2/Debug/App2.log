@@ -1,0 +1,22 @@
+﻿  App.xaml.cpp
+  FirstPage.xaml.cpp
+  MainPage.xaml.cpp
+  MainPage1.xaml.cpp
+  Mainfront.xaml.cpp
+  North.xaml.cpp
+  North1.xaml.cpp
+  Northfront.xaml.cpp
+c:\users\ishank\documents\final final\app2\app2\north1.xaml.cpp(165): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ishank\documents\final final\app2\app2\north1.xaml.cpp(520): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ishank\documents\final final\app2\app2\north1.xaml.cpp(596): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ishank\documents\final final\app2\app2\north1.xaml.cpp(617): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ishank\documents\final final\app2\app2\north.xaml.cpp(165): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ishank\documents\final final\app2\app2\north.xaml.cpp(521): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ishank\documents\final final\app2\app2\north.xaml.cpp(597): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ishank\documents\final final\app2\app2\north.xaml.cpp(618): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ishank\documents\final final\app2\app2\north1.xaml.cpp(386): warning C4715: 'xor_without_row3': not all control paths return a value
+c:\users\ishank\documents\final final\app2\app2\north.xaml.cpp(387): warning C4715: 'xor_without_row': not all control paths return a value
+  XamlTypeInfo.g.cpp
+     Creating library C:\Users\Ishank\Documents\Final Final\App2\Debug\App2\App2.lib and object C:\Users\Ishank\Documents\Final Final\App2\Debug\App2\App2.exp
+  App2.vcxproj -> C:\Users\Ishank\Documents\Final Final\App2\Debug\App2\App2.exe
+  App2.vcxproj -> C:\Users\Ishank\Documents\Final Final\App2\Debug\App2\App2.pdb (Partial PDB)

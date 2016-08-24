@@ -1,0 +1,180 @@
+﻿<Page
+    x:Class="App2.North"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="900" Margin="1,-2,-1,2" VerticalAlignment="Top" Width="1600" Source="Assets/back.jpg" Opacity="0.5"/>
+        <Image x:Name="board" HorizontalAlignment="Left" Height="500" Margin="485,106,0,0" VerticalAlignment="Top" Width="550" Source="Assets/board4.jpg"/>
+        <Rectangle HorizontalAlignment="Left" Height="500" Margin="485,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="535,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="585,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="635,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="685,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="735,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="785,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="835,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="885,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="935,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="985,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,156,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,206,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,256,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,306,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,356,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,406,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,456,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,506,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="485,556,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Button x:Name="button00" Content="" HorizontalAlignment="Left" Margin="485,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button00_Click" Opacity="0" Background="Black"/>
+        <Button x:Name="button01" Content="" HorizontalAlignment="Left" Margin="535,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button01_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button02" Content="" HorizontalAlignment="Left" Margin="585,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button02_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button03" Content="" HorizontalAlignment="Left" Margin="635,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button03_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button04" Content="" HorizontalAlignment="Left" Margin="685,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button04_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button05" Content="" HorizontalAlignment="Left" Margin="735,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button05_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button06" Content="" HorizontalAlignment="Left" Margin="785,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button06_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button07" Content="" HorizontalAlignment="Left" Margin="835,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button07_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button08" Content="" HorizontalAlignment="Left" Margin="885,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button08_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button09" Content="" HorizontalAlignment="Left" Margin="935,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button09_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button010" Content="" HorizontalAlignment="Left" Margin="985,106,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button010_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button10" Content="" HorizontalAlignment="Left" Margin="485,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button10_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button11" Content="" HorizontalAlignment="Left" Margin="535,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button11_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button12" Content="" HorizontalAlignment="Left" Margin="585,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button12_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button13" Content="" HorizontalAlignment="Left" Margin="635,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button13_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button14" Content="" HorizontalAlignment="Left" Margin="685,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button14_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button15" Content="" HorizontalAlignment="Left" Margin="735,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button15_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button16" Content="" HorizontalAlignment="Left" Margin="785,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button16_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button17" Content="" HorizontalAlignment="Left" Margin="835,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button17_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button18" Content="" HorizontalAlignment="Left" Margin="885,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button18_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button19" Content="" HorizontalAlignment="Left" Margin="935,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button19_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button110" Content="" HorizontalAlignment="Left" Margin="985,156,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button110_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button20" Content="" HorizontalAlignment="Left" Margin="485,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button20_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button21" Content="" HorizontalAlignment="Left" Margin="535,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button21_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button22" Content="" HorizontalAlignment="Left" Margin="585,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button22_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button23" Content="" HorizontalAlignment="Left" Margin="635,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button23_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button24" Content="" HorizontalAlignment="Left" Margin="685,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button24_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button25" Content="" HorizontalAlignment="Left" Margin="735,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button25_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button26" Content="" HorizontalAlignment="Left" Margin="785,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button26_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button27" Content="" HorizontalAlignment="Left" Margin="835,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button27_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button28" Content="" HorizontalAlignment="Left" Margin="885,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button28_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button29" Content="" HorizontalAlignment="Left" Margin="935,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button29_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button210" Content="" HorizontalAlignment="Left" Margin="985,206,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button210_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button30" Content="" HorizontalAlignment="Left" Margin="485,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button30_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button31" Content="" HorizontalAlignment="Left" Margin="535,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button31_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button32" Content="" HorizontalAlignment="Left" Margin="585,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button32_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button33" Content="" HorizontalAlignment="Left" Margin="635,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button33_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button34" Content="" HorizontalAlignment="Left" Margin="685,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button34_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button35" Content="" HorizontalAlignment="Left" Margin="735,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button35_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button36" Content="" HorizontalAlignment="Left" Margin="785,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button36_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button37" Content="" HorizontalAlignment="Left" Margin="835,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button37_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button38" Content="" HorizontalAlignment="Left" Margin="885,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button38_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button39" Content="" HorizontalAlignment="Left" Margin="935,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button39_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button310" Content="" HorizontalAlignment="Left" Margin="985,256,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button310_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button40" Content="" HorizontalAlignment="Left" Margin="485,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button40_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button41" Content="" HorizontalAlignment="Left" Margin="535,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button41_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button42" Content="" HorizontalAlignment="Left" Margin="585,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button42_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button43" Content="" HorizontalAlignment="Left" Margin="635,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button43_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button44" Content="" HorizontalAlignment="Left" Margin="685,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button44_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button45" Content="" HorizontalAlignment="Left" Margin="735,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button45_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button46" Content="" HorizontalAlignment="Left" Margin="785,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button46_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button47" Content="" HorizontalAlignment="Left" Margin="835,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button47_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button48" Content="" HorizontalAlignment="Left" Margin="885,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button48_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button49" Content="" HorizontalAlignment="Left" Margin="935,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button49_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button410" Content="" HorizontalAlignment="Left" Margin="985,306,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button410_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button50" Content="" HorizontalAlignment="Left" Margin="485,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button50_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button51" Content="" HorizontalAlignment="Left" Margin="535,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button51_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button52" Content="" HorizontalAlignment="Left" Margin="585,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button52_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button53" Content="" HorizontalAlignment="Left" Margin="635,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button53_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button54" Content="" HorizontalAlignment="Left" Margin="685,357,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button54_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button55" Content="" HorizontalAlignment="Left" Margin="735,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button55_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button56" Content="" HorizontalAlignment="Left" Margin="785,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button56_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button57" Content="" HorizontalAlignment="Left" Margin="835,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button57_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button58" Content="" HorizontalAlignment="Left" Margin="885,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button58_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button59" Content="" HorizontalAlignment="Left" Margin="935,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button59_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button510" Content="" HorizontalAlignment="Left" Margin="985,356,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button510_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button60" Content="" HorizontalAlignment="Left" Margin="485,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button60_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button61" Content="" HorizontalAlignment="Left" Margin="535,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button61_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button62" Content="" HorizontalAlignment="Left" Margin="585,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button62_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button63" Content="" HorizontalAlignment="Left" Margin="635,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button63_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button64" Content="" HorizontalAlignment="Left" Margin="685,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button64_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button65" Content="" HorizontalAlignment="Left" Margin="735,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button65_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button66" Content="" HorizontalAlignment="Left" Margin="785,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button66_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button67" Content="" HorizontalAlignment="Left" Margin="835,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button67_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button68" Content="" HorizontalAlignment="Left" Margin="885,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button68_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button69" Content="" HorizontalAlignment="Left" Margin="935,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button69_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button610" Content="" HorizontalAlignment="Left" Margin="985,406,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button610_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button70" Content="" HorizontalAlignment="Left" Margin="485,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button70_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button71" Content="" HorizontalAlignment="Left" Margin="535,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button71_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button72" Content="" HorizontalAlignment="Left" Margin="585,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button72_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button73" Content="" HorizontalAlignment="Left" Margin="635,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button73_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button74" Content="" HorizontalAlignment="Left" Margin="685,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button74_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button75" Content="" HorizontalAlignment="Left" Margin="735,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button75_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button76" Content="" HorizontalAlignment="Left" Margin="785,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button76_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button77" Content="" HorizontalAlignment="Left" Margin="835,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button77_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button78" Content="" HorizontalAlignment="Left" Margin="885,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button78_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button79" Content="" HorizontalAlignment="Left" Margin="935,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button79_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button710" Content="" HorizontalAlignment="Left" Margin="985,456,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button710_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button80" Content="" HorizontalAlignment="Left" Margin="485,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button80_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button81" Content="" HorizontalAlignment="Left" Margin="535,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button81_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button82" Content="" HorizontalAlignment="Left" Margin="585,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button82_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button83" Content="" HorizontalAlignment="Left" Margin="635,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button83_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button84" Content="" HorizontalAlignment="Left" Margin="685,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button84_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button85" Content="" HorizontalAlignment="Left" Margin="735,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button85_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button86" Content="" HorizontalAlignment="Left" Margin="785,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button86_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button87" Content="" HorizontalAlignment="Left" Margin="835,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button87_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button88" Content="" HorizontalAlignment="Left" Margin="885,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button88_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button89" Content="" HorizontalAlignment="Left" Margin="935,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button89_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button810" Content="" HorizontalAlignment="Left" Margin="985,506,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button810_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button90" Content="" HorizontalAlignment="Left" Margin="485,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button90_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button91" Content="" HorizontalAlignment="Left" Margin="535,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button91_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button92" Content="" HorizontalAlignment="Left" Margin="585,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button92_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button93" Content="" HorizontalAlignment="Left" Margin="635,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button93_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button94" Content="" HorizontalAlignment="Left" Margin="685,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button94_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button95" Content="" HorizontalAlignment="Left" Margin="735,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button95_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button96" Content="" HorizontalAlignment="Left" Margin="785,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button96_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button97" Content="" HorizontalAlignment="Left" Margin="835,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button97_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button98" Content="" HorizontalAlignment="Left" Margin="885,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button98_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button99" Content="" HorizontalAlignment="Left" Margin="935,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button99_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button910" Content="" HorizontalAlignment="Left" Margin="985,556,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button910_Click" Background="Black" Opacity="0"/>
+        <Button x:Name="button" Content="RESET" HorizontalAlignment="Left" Margin="486,660,0,0" VerticalAlignment="Top" Click="button_Click" Width="100" Background="Black" Opacity="0.5" Height="50"/>
+        <!--<TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="65,501,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="164" Width="217"/>-->
+        <Image x:Name="image_human0" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human1" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human2" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human3" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human4" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human5" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human6" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human7" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human8" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_human9" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:Name="image_computer0" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer1" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer2" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer3" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer4" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer5" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer6" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer7" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer8" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="image_computer9" HorizontalAlignment="Left" Height="50" Margin="1016,98,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:Name="quote1" HorizontalAlignment="Left" Height="350" Margin="75,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote1.png" Visibility="Collapsed"/>
+        <Image x:Name="quote2" HorizontalAlignment="Left" Height="350" Margin="75,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote2.png" Visibility="Collapsed"/>
+        <Image x:Name="quote3" HorizontalAlignment="Left" Height="350" Margin="75,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote3.png" Visibility="Collapsed"/>
+        <Image x:Name="quote4" HorizontalAlignment="Left" Height="350" Margin="75,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote4.png" Visibility="Collapsed"/>
+        <Image x:Name="quote5" HorizontalAlignment="Left" Height="350" Margin="1100,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote5.png" Visibility="Collapsed"/>
+        <Image x:Name="quote6" HorizontalAlignment="Left" Height="350" Margin="1100,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote6.png" Visibility="Collapsed"/>
+        <Image x:Name="quote7" HorizontalAlignment="Left" Height="350" Margin="1100,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote7.png" Visibility="Collapsed"/>
+        <Image x:Name="quote8" HorizontalAlignment="Left" Height="350" Margin="1100,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote8.png" Visibility="Collapsed"/>
+        <Button x:Name="button1" Content="Main Menu" HorizontalAlignment="Left"  Margin="935,660,0,0" VerticalAlignment="Top" Click="button1_Click" Height="50" Width="100" Background="Black" Opacity="0.5"/>
+        <Rectangle x:Name="R1y" Fill="#FFFFC107" HorizontalAlignment="Left" Height="286" Width="393" Margin="-1600,-1000,0,0" Stroke="Black" VerticalAlignment="Top" />
+        <Image x:Name="imagep1y" HorizontalAlignment="Left" Height="57" Margin="-1600,288,0,0" VerticalAlignment="Top" Width="284" Source="Assets/p1.png"/>
+        <Image x:Name="imagep2y" HorizontalAlignment="Left" Height="57" Margin="-1600,288,0,0" VerticalAlignment="Top" Width="284" Source="Assets/c.png"/>
+
+
+    </Grid>
+</Page>

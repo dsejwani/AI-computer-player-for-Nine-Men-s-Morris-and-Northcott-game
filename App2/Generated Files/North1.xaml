@@ -1,0 +1,181 @@
+﻿<Page
+    x:Class="App2.North1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Image x:ConnectionId='1' x:Name="image3" HorizontalAlignment="Left" Height="900" Margin="1,-2,-1,2" VerticalAlignment="Top" Width="1600" Source="Assets/back.jpg" Opacity="0.5"/>
+        <Image x:ConnectionId='2' x:Name="board3" HorizontalAlignment="Left" Height="500" Margin="485,106,0,0" VerticalAlignment="Top" Width="550" Source="Assets/board4.jpg"/>
+        <Rectangle HorizontalAlignment="Left" Height="500" Margin="485,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="535,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="585,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="635,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="685,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="735,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="785,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="835,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="885,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="935,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="500" Margin="985,106,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,156,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,206,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,256,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,306,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,356,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,406,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,456,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="485,506,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="485,556,0,0" Stroke="Black" VerticalAlignment="Top" Width="550"/>
+        <Button x:ConnectionId='3' x:Name="button003" Content="" HorizontalAlignment="Left" Margin="485,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Opacity="0" Background="Black"/>
+        <Button x:ConnectionId='4' x:Name="button013" Content="" HorizontalAlignment="Left" Margin="535,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='5' x:Name="button023" Content="" HorizontalAlignment="Left" Margin="585,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='6' x:Name="button033" Content="" HorizontalAlignment="Left" Margin="635,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='7' x:Name="button043" Content="" HorizontalAlignment="Left" Margin="685,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='8' x:Name="button053" Content="" HorizontalAlignment="Left" Margin="735,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='9' x:Name="button063" Content="" HorizontalAlignment="Left" Margin="785,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='10' x:Name="button073" Content="" HorizontalAlignment="Left" Margin="835,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='11' x:Name="button083" Content="" HorizontalAlignment="Left" Margin="885,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='12' x:Name="button093" Content="" HorizontalAlignment="Left" Margin="935,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='13' x:Name="button0103" Content="" HorizontalAlignment="Left" Margin="985,106,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='14' x:Name="button103" Content="" HorizontalAlignment="Left" Margin="485,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='15' x:Name="button113" Content="" HorizontalAlignment="Left" Margin="535,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='16' x:Name="button123" Content="" HorizontalAlignment="Left" Margin="585,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='17' x:Name="button133" Content="" HorizontalAlignment="Left" Margin="635,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='18' x:Name="button143" Content="" HorizontalAlignment="Left" Margin="685,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='19' x:Name="button153" Content="" HorizontalAlignment="Left" Margin="735,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='20' x:Name="button163" Content="" HorizontalAlignment="Left" Margin="785,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='21' x:Name="button173" Content="" HorizontalAlignment="Left" Margin="835,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='22' x:Name="button183" Content="" HorizontalAlignment="Left" Margin="885,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='23' x:Name="button193" Content="" HorizontalAlignment="Left" Margin="935,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='24' x:Name="button1103" Content="" HorizontalAlignment="Left" Margin="985,156,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='25' x:Name="button203" Content="" HorizontalAlignment="Left" Margin="485,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='26' x:Name="button213" Content="" HorizontalAlignment="Left" Margin="535,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='27' x:Name="button223" Content="" HorizontalAlignment="Left" Margin="585,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='28' x:Name="button233" Content="" HorizontalAlignment="Left" Margin="635,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='29' x:Name="button243" Content="" HorizontalAlignment="Left" Margin="685,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='30' x:Name="button253" Content="" HorizontalAlignment="Left" Margin="735,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='31' x:Name="button263" Content="" HorizontalAlignment="Left" Margin="785,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='32' x:Name="button273" Content="" HorizontalAlignment="Left" Margin="835,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='33' x:Name="button283" Content="" HorizontalAlignment="Left" Margin="885,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='34' x:Name="button293" Content="" HorizontalAlignment="Left" Margin="935,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='35' x:Name="button2103" Content="" HorizontalAlignment="Left" Margin="985,206,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='36' x:Name="button303" Content="" HorizontalAlignment="Left" Margin="485,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='37' x:Name="button313" Content="" HorizontalAlignment="Left" Margin="535,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='38' x:Name="button323" Content="" HorizontalAlignment="Left" Margin="585,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='39' x:Name="button333" Content="" HorizontalAlignment="Left" Margin="635,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='40' x:Name="button343" Content="" HorizontalAlignment="Left" Margin="685,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='41' x:Name="button353" Content="" HorizontalAlignment="Left" Margin="735,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='42' x:Name="button363" Content="" HorizontalAlignment="Left" Margin="785,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='43' x:Name="button373" Content="" HorizontalAlignment="Left" Margin="835,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='44' x:Name="button383" Content="" HorizontalAlignment="Left" Margin="885,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='45' x:Name="button393" Content="" HorizontalAlignment="Left" Margin="935,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='46' x:Name="button3103" Content="" HorizontalAlignment="Left" Margin="985,256,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='47' x:Name="button403" Content="" HorizontalAlignment="Left" Margin="485,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='48' x:Name="button413" Content="" HorizontalAlignment="Left" Margin="535,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='49' x:Name="button423" Content="" HorizontalAlignment="Left" Margin="585,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='50' x:Name="button433" Content="" HorizontalAlignment="Left" Margin="635,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='51' x:Name="button443" Content="" HorizontalAlignment="Left" Margin="685,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='52' x:Name="button453" Content="" HorizontalAlignment="Left" Margin="735,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='53' x:Name="button463" Content="" HorizontalAlignment="Left" Margin="785,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='54' x:Name="button473" Content="" HorizontalAlignment="Left" Margin="835,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='55' x:Name="button483" Content="" HorizontalAlignment="Left" Margin="885,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='56' x:Name="button493" Content="" HorizontalAlignment="Left" Margin="935,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='57' x:Name="button4103" Content="" HorizontalAlignment="Left" Margin="985,306,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='58' x:Name="button503" Content="" HorizontalAlignment="Left" Margin="485,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='59' x:Name="button513" Content="" HorizontalAlignment="Left" Margin="535,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='60' x:Name="button523" Content="" HorizontalAlignment="Left" Margin="585,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='61' x:Name="button533" Content="" HorizontalAlignment="Left" Margin="635,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='62' x:Name="button543" Content="" HorizontalAlignment="Left" Margin="685,357,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='63' x:Name="button553" Content="" HorizontalAlignment="Left" Margin="735,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='64' x:Name="button563" Content="" HorizontalAlignment="Left" Margin="785,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='65' x:Name="button573" Content="" HorizontalAlignment="Left" Margin="835,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='66' x:Name="button583" Content="" HorizontalAlignment="Left" Margin="885,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='67' x:Name="button593" Content="" HorizontalAlignment="Left" Margin="935,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='68' x:Name="button5103" Content="" HorizontalAlignment="Left" Margin="985,356,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='69' x:Name="button603" Content="" HorizontalAlignment="Left" Margin="485,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='70' x:Name="button613" Content="" HorizontalAlignment="Left" Margin="535,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='71' x:Name="button623" Content="" HorizontalAlignment="Left" Margin="585,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='72' x:Name="button633" Content="" HorizontalAlignment="Left" Margin="635,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='73' x:Name="button643" Content="" HorizontalAlignment="Left" Margin="685,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='74' x:Name="button653" Content="" HorizontalAlignment="Left" Margin="735,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='75' x:Name="button663" Content="" HorizontalAlignment="Left" Margin="785,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='76' x:Name="button673" Content="" HorizontalAlignment="Left" Margin="835,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='77' x:Name="button683" Content="" HorizontalAlignment="Left" Margin="885,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='78' x:Name="button693" Content="" HorizontalAlignment="Left" Margin="935,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='79' x:Name="button6103" Content="" HorizontalAlignment="Left" Margin="985,406,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='80' x:Name="button703" Content="" HorizontalAlignment="Left" Margin="485,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='81' x:Name="button713" Content="" HorizontalAlignment="Left" Margin="535,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='82' x:Name="button723" Content="" HorizontalAlignment="Left" Margin="585,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='83' x:Name="button733" Content="" HorizontalAlignment="Left" Margin="635,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='84' x:Name="button743" Content="" HorizontalAlignment="Left" Margin="685,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='85' x:Name="button753" Content="" HorizontalAlignment="Left" Margin="735,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='86' x:Name="button763" Content="" HorizontalAlignment="Left" Margin="785,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='87' x:Name="button773" Content="" HorizontalAlignment="Left" Margin="835,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='88' x:Name="button783" Content="" HorizontalAlignment="Left" Margin="885,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='89' x:Name="button793" Content="" HorizontalAlignment="Left" Margin="935,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='90' x:Name="button7103" Content="" HorizontalAlignment="Left" Margin="985,456,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='91' x:Name="button803" Content="" HorizontalAlignment="Left" Margin="485,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='92' x:Name="button813" Content="" HorizontalAlignment="Left" Margin="535,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='93' x:Name="button823" Content="" HorizontalAlignment="Left" Margin="585,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='94' x:Name="button833" Content="" HorizontalAlignment="Left" Margin="635,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='95' x:Name="button843" Content="" HorizontalAlignment="Left" Margin="685,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='96' x:Name="button853" Content="" HorizontalAlignment="Left" Margin="735,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='97' x:Name="button863" Content="" HorizontalAlignment="Left" Margin="785,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='98' x:Name="button873" Content="" HorizontalAlignment="Left" Margin="835,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='99' x:Name="button883" Content="" HorizontalAlignment="Left" Margin="885,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='100' x:Name="button893" Content="" HorizontalAlignment="Left" Margin="935,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='101' x:Name="button8103" Content="" HorizontalAlignment="Left" Margin="985,506,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='102' x:Name="button903" Content="" HorizontalAlignment="Left" Margin="485,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='103' x:Name="button913" Content="" HorizontalAlignment="Left" Margin="535,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='104' x:Name="button923" Content="" HorizontalAlignment="Left" Margin="585,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='105' x:Name="button933" Content="" HorizontalAlignment="Left" Margin="635,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='106' x:Name="button943" Content="" HorizontalAlignment="Left" Margin="685,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='107' x:Name="button953" Content="" HorizontalAlignment="Left" Margin="735,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='108' x:Name="button963" Content="" HorizontalAlignment="Left" Margin="785,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='109' x:Name="button973" Content="" HorizontalAlignment="Left" Margin="835,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='110' x:Name="button983" Content="" HorizontalAlignment="Left" Margin="885,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='111' x:Name="button993" Content="" HorizontalAlignment="Left" Margin="935,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                         Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='112' x:Name="button9103" Content="" HorizontalAlignment="Left" Margin="985,556,0,0" VerticalAlignment="Top" Width="50" Height="50"                          Background="Black" Opacity="0"/>
+        <Button x:ConnectionId='113' x:Name="button3" Content="RESET" HorizontalAlignment="Left" Margin="486,660,0,0" VerticalAlignment="Top"                       Width="100" Background="Black" Opacity="0.5" Height="50"/>
+        <!-- <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="65,501,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="164" Width="217"/>-->
+        <Image x:ConnectionId='114' x:Name="image_human03" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='115' x:Name="image_human13" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='116' x:Name="image_human23" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='117' x:Name="image_human33" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='118' x:Name="image_human43" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='119' x:Name="image_human53" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='120' x:Name="image_human63" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='121' x:Name="image_human73" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='122' x:Name="image_human83" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='123' x:Name="image_human93" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/green.png"/>
+        <Image x:ConnectionId='124' x:Name="image_computer03" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='125' x:Name="image_computer13" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='126' x:Name="image_computer23" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='127' x:Name="image_computer33" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='128' x:Name="image_computer43" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='129' x:Name="image_computer53" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='130' x:Name="image_computer63" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='131' x:Name="image_computer73" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='132' x:Name="image_computer83" HorizontalAlignment="Left" Height="50" Margin="1016,100,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='133' x:Name="image_computer93" HorizontalAlignment="Left" Height="50" Margin="1016,98,0,0" VerticalAlignment="Top" Width="50" Source="Assets/red.png"/>
+        <Image x:ConnectionId='134' x:Name="quote13" HorizontalAlignment="Left" Height="350" Margin="75,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote1.png" Visibility="Collapsed"/>
+        <Image x:ConnectionId='135' x:Name="quote23" HorizontalAlignment="Left" Height="350" Margin="75,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote2.png" Visibility="Collapsed"/>
+        <Image x:ConnectionId='136' x:Name="quote33" HorizontalAlignment="Left" Height="350" Margin="75,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote3.png" Visibility="Collapsed"/>
+        <Image x:ConnectionId='137' x:Name="quote43" HorizontalAlignment="Left" Height="350" Margin="75,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote4.png" Visibility="Collapsed"/>
+        <Image x:ConnectionId='138' x:Name="quote53" HorizontalAlignment="Left" Height="350" Margin="1100,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote5.png" Visibility="Collapsed"/>
+        <Image x:ConnectionId='139' x:Name="quote63" HorizontalAlignment="Left" Height="350" Margin="1100,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote6.png" Visibility="Collapsed"/>
+        <Image x:ConnectionId='140' x:Name="quote73" HorizontalAlignment="Left" Height="350" Margin="1100,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote7.png" Visibility="Collapsed"/>
+        <Image x:ConnectionId='141' x:Name="quote83" HorizontalAlignment="Left" Height="350" Margin="1100,356,0,0" VerticalAlignment="Top" Width="350" Source="Assets/quote8.png" Visibility="Collapsed"/>
+        <Button x:ConnectionId='142' x:Name="button13" Content="Main Menu" HorizontalAlignment="Left"  Margin="935,660,0,0" VerticalAlignment="Top"                        Height="50" Width="100" Background="Black" Opacity="0.5"/>
+        <Rectangle x:ConnectionId='143' x:Name="R1z" Fill="#FFFFC107" HorizontalAlignment="Left" Height="286" Width="393" Margin="-508,406,0,0" Stroke="Black" VerticalAlignment="Top" />
+        <Image x:ConnectionId='144' x:Name="imagep1z" HorizontalAlignment="Left" Height="57" Margin="-446,506,0,0" VerticalAlignment="Top" Width="284" Source="Assets/p1.png"/>
+        <Image x:ConnectionId='145' x:Name="imagep2z" HorizontalAlignment="Left" Height="57" Margin="-446,499,0,0" VerticalAlignment="Top" Width="284" Source="Assets/p2.png"/>
+
+
+    </Grid>
+</Page>
+

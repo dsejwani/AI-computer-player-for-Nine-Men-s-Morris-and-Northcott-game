@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="App2.Mainfront"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFFC107">
+       
+        <Image x:ConnectionId='1' x:Name="image" HorizontalAlignment="Left" Height="219" Margin="400,248,0,0" VerticalAlignment="Top" Width="219" Source="Assets/single.jpg"/>
+        <Image x:ConnectionId='2' x:Name="image1" HorizontalAlignment="Left" Height="219" Margin="831,248,0,0" VerticalAlignment="Top" Width="219" Source="Assets/multi.jpg"/>
+        <Button x:ConnectionId='3' x:Name="button" Content="" HorizontalAlignment="Left" Margin="400,248,0,0" VerticalAlignment="Top" Height="219" Width="219"                      Foreground="{x:Null}" Background="#00000000"/>
+        <Button x:ConnectionId='4' x:Name="button1" Content="" HorizontalAlignment="Left" Margin="831,248,0,0" VerticalAlignment="Top" Height="219" Width="219"                       Foreground="{x:Null}" Background="#00000000"/>
+    </Grid>
+</Page>
+

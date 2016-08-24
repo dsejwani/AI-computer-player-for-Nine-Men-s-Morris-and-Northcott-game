@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>1e7ad450-a17a-47f8-8441-28bd2452f816</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>4cdcddce-66c7-43a7-a4fe-10a530a2ab96</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="EvalSettings.cpp" />
+    <ClCompile Include="Move.cpp" />
+    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="GameController.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="GameNode.cpp" />
+    <ClCompile Include="FirstPage.xaml.cpp" />
+    <ClCompile Include="North.xaml.cpp" />
+    <ClCompile Include="Mainfront.xaml.cpp" />
+    <ClCompile Include="Northfront.xaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="EvalSettings.h" />
+    <ClInclude Include="Move.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="GameController.h" />
+    <ClInclude Include="GameNode.h" />
+    <ClInclude Include="FirstPage.xaml.h" />
+    <ClInclude Include="North.xaml.h" />
+    <ClInclude Include="Mainfront.xaml.h" />
+    <ClInclude Include="Northfront.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\green.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\red.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\board.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\green.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\red.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Black-Wood-Wallpaper-07.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\white-wood-wall-texture-wallpaper21.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\title.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\logo1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\back.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\board1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\board4.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\quote1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\quote2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\quote3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\quote4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\quote5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\quote6.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\quote7.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\quote8.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\board2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\multi.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\single.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\c.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\p1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\p2.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App2_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+    <Page Include="FirstPage.xaml" />
+    <Page Include="North.xaml" />
+    <Page Include="Northfront.xaml" />
+    <Page Include="Mainfront.xaml" />
+    <Page Include="MainPage1.xaml" />
+    <Page Include="North1.xaml" />
+    <Page Include="P1.xaml" />
+    <Page Include="P2.xaml" />
+    <Page Include="C.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="App2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Sword Slash Tune.mp3" />
+    <Media Include="Assets\Sword Of The Strange.mp3" />
+    <Media Include="Assets\Winning Smile.mp3" />
+  </ItemGroup>
+</Project>

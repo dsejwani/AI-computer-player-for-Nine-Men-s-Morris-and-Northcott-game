@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  App.xaml.cpp
+  MainPage.xaml.cpp
+  XamlTypeInfo.Impl.g.cpp
+  XamlTypeInfo.g.cpp
+     Creating library C:\Users\Dheeraj Sejwani\Documents\Visual Studio 2015\Projects\App2\x64\Debug\App2\App2.lib and object C:\Users\Dheeraj Sejwani\Documents\Visual Studio 2015\Projects\App2\x64\Debug\App2\App2.exp
+  App2.vcxproj -> C:\Users\Dheeraj Sejwani\Documents\Visual Studio 2015\Projects\App2\x64\Debug\App2\App2.exe
+  App2.vcxproj -> C:\Users\Dheeraj Sejwani\Documents\Visual Studio 2015\Projects\App2\x64\Debug\App2\App2.pdb (Partial PDB)
+C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\AppxPackage\Microsoft.AppXPackage.Targets(2075,5): error APPX0702: Payload file 'C:\Users\Dheeraj Sejwani\Desktop\CFD\green.jpg' does not exist.
